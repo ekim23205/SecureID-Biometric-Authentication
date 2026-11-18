@@ -1,0 +1,27 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Private data
+data/
+biometrics/
+*.db
+*.sqlite3
+
+# Secrets
+.env
+*.key
+
+# Local development
+.streamlit/secrets.toml
+
+# Additional sensitive files
+*.enc
+.env.*
+!.env.example
+
+# Local development files
+.vscode/
+*.log
+.pytest_cache/
